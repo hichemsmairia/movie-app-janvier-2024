@@ -1,0 +1,26 @@
+/* Navbar.module.css */
+.navbar {
+  background-color: rgb(41, 17, 148);
+  padding: 15px;
+}
+
+.navList {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+
+.navItem {
+  margin-right: 10px;
+}
+
+.navLink {
+  text-decoration: none;
+  color: white;
+}
+
+.navLink:hover {
+  color: lightblue;
+}
